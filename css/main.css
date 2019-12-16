@@ -1,6 +1,6 @@
 .site-header{
     background-color: rgb(219, 208, 219);
-    color:rgb(122, 118, 118);
+    color:rgb(117, 111, 111);
     height: 100vh;
     font-family:monospace;  
     display:flex;
@@ -17,6 +17,7 @@
 }
 body{
     margin:0;
+    align-items:center;
 }
 .site-header-content
 {
@@ -25,4 +26,9 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
+}
+.course-link
+{
+    color:rgb(117, 111, 111);   
 }
